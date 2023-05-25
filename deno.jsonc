@@ -1,0 +1,7 @@
+{
+  "lint": {
+    "exclude": ["./generated"]
+  },
+  "fmt": { "semiColons": false, "lineWidth": 100 },
+  "compilerOptions": { "exactOptionalPropertyTypes": true }
+}

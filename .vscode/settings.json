@@ -1,0 +1,24 @@
+{
+  "deno.lint": true,
+  "deno.config": "./deno.jsonc",
+  "deno.enablePaths": [
+    "schemas",
+    "utils",
+    "tools",
+    "cli",
+    "shared",
+    "deps.ts",
+    "test_deps.ts"
+  ],
+  "deno.unstable": true,
+  "explorer.autoRevealExclude": {
+    "generated/*": true
+  },
+  "[typescript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "denoland.vscode-deno",
+  },
+  "[markdown]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  }
+}
